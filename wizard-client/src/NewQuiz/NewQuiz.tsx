@@ -48,7 +48,7 @@ const validationSchema = Yup.object({
 
 const NewQuiz: React.FC = () => {
   const handleSubmit = (values: FormValues) => {
-    console.log(values);
+    console.log("form values: ", values);
   };
 
   return (
